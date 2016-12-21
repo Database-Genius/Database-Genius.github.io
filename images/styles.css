@@ -1,0 +1,185 @@
+@font-face {
+font-family: EBGaramond;
+src: url("EBGaramond/EBGaramond.otf") format("opentype");
+}
+
+@font-face {
+font-family: EBGaramond;
+font-weight: bold;
+src: url("EBGaramond/EBGaramond.otf") format("opentype");
+}
+
+/* "SC" is all-caps typeface: */
+@font-face {
+font-family: EBGaramondSC;
+font-weight: bold;
+src: url("EBGaramond/EBGaramondSC.otf") format("opentype");
+}
+
+
+A {
+	text-decoration: none;
+}
+
+body {
+	font-family: EBGaramond, "Times New Roman", Baskerville, Cochin, serif;
+   font-size: 115%;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	background-color: rgb(255,250,245);
+}
+	
+
+
+.lighter
+{
+   font-size: 85%;
+   color: rgb(120,120,120);
+}
+
+.very_light
+{
+	color: rgb(200,200,200);
+}
+
+.stronger
+{
+   font-size: 101.5%;
+	font-weight: 700;
+	outline: rgb(255,245,233) dotted thick;
+}
+
+.strongest
+{
+   font-size: 102.5%;
+	font-weight: 900;
+	outline: rgb(255,240,225) dotted thick;
+}
+
+.form_inline {
+	margin: 0;
+	border: 0px;
+	padding: 0em;
+	clear: none;
+	display: inline;
+}
+
+form.form_inline {
+	padding: .1em;
+	clear: none;
+	display: inline;
+}
+
+table.form_inline {
+	clear: none;
+	display: inline;
+}
+
+table.inline {
+	margin: 0px;
+	
+	padding: 0px;
+	margin: 0px;
+	cellpadding:0px;
+	cellspacing:0px;
+	display: inline;
+	vertical-align: top;
+}
+
+td.inline {
+	margin: 0px;
+	
+	padding: 0px;
+	margin: 0px;
+	cellpadding:0px;
+	cellspacing:0px;
+}
+
+form.inline {
+	margin: 0px;
+	
+	padding: 0px;
+	margin: 0px;
+	cellpadding:0px;
+	cellspacing:0px;
+	display: block;
+}
+
+
+.tiny_text
+{
+   font-size: 75%;
+}
+
+
+#logout_form
+{
+	margin: 0px;
+	padding: 0px;
+	margin: 0px;
+	cellpadding:0px;
+	cellspacing:0px;
+	clear: none;
+	display: inline;
+
+}
+
+img
+{
+	margin: 0px 20px 10px 0px;
+	padding: 10px;
+	float: left;
+}
+
+
+table.noborder span.sg {
+	font-size: 95%;
+	color: rgb(70,70,70);
+}
+
+
+
+.main {
+	position: relative;
+	top: 30px;
+	left:0px;
+	right:0px;
+	border-bottom:1.25em;
+	padding: 0.25em 0.25em 1.25em 0.25em;
+	z-index: +1;
+}
+
+
+.smaller {
+	font-size: 75%;
+}
+
+sup
+{
+ 	font-size: 70%;
+}
+
+#genius
+{
+	position: absolute;
+	color: rgb(255,240,225);
+	right:0px;
+	top: -15px;
+ 	font-size: 400%;
+}
+
+aside
+{
+ 	font-size: 300%;
+ 	color: rgb(225,160,225);
+ 	float: right;
+	text-align : center;
+ 	display: block;
+ 	width: 25%;
+	border-color : rgb(255,240,225);
+	border-width : 0em;
+	border: 1em;
+	padding: .4em;
+}
